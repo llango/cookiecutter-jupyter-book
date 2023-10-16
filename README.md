@@ -1,7 +1,7 @@
 # Cookiecutter Jupyter Book
 
 <p align="center">
-  <img src="{{cookiecutter.book_slug}}/{{cookiecutter.book_slug}}/logo.png" width="400">
+  <img src="{{cookiecutter.book_slug}}/{{cookiecutter.book_slug}}/images/logo.png" width="400">
 </p>
 
 一个用来创建 [Jupyter Book](https://jupyterbook.org/intro.html)的 cookiecutter模板，可以从 [这里](https://executablebooks.github.io/cookiecutter-jupyter-book/)查看cookiecutter-jupyer-book模板的效果。
@@ -21,15 +21,23 @@ my_book
 ├── my_book
 │   ├── _config.yml
 │   ├── _toc.yml
-│   ├── content.md
-│   ├── intro.md
-│   ├── logo.png
-│   ├── markdown.md
-│   ├── markdown-notebooks.md
-│   ├── notebooks.ipynb
+│   ├── preface
+|         ├──index.md
+|         ├──content.md
+│   ├── chapter0
+|         ├──markdown.md
+│   ├── chapter1
+|         ├──notebooks.ipynb
+│   ├── chapter2
+|         ├──markdown-notebooks.md
+│   ├── images
+|         ├──logo.png
+│   ├── static
+|         ├──styles.css
 │   └── references.bib
 ├── README.md
 └── requirements.txt
+└── notebooks
 ```
 
 ## 使用方式
