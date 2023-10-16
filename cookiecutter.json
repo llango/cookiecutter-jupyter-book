@@ -1,0 +1,21 @@
+{
+  "author_name": "凉葱落",
+  "github_username": "{{ cookiecutter.author_name.lower().replace(' ', '') }}",
+  "book_name": "Jupyter 图书",
+  "book_slug": "{{ cookiecutter.book_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "book_short_description": "使用cookie创建一个简单的jupyter图书。该语句用来描述该书情况。",
+  "version": "'0.1.0'",
+  "open_source_license": [
+    "MIT license",
+    "BSD license",
+    "Apache Software License 2.0",
+    "CC BY 4.0",
+    "CC BY-SA 4.0",
+    "None"
+  ],
+  "include_ci": [
+    "github",
+    "gitlab",
+    "no"
+  ]
+}

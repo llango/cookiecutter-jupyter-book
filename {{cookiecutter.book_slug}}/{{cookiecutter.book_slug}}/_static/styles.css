@@ -1,0 +1,55 @@
+#main-content {
+    --pst-font-size-h0: 30px;
+    --pst-font-size-h1: 24px;
+    --pst-font-size-h2: 20px;
+    --pst-font-size-h3: 16px;
+    --pst-font-size-h4: 14px; 
+    --pst-font-size-h5: 10px;
+    --pst-font-size-h6: 10px;
+  }
+  
+  #main-content img {
+    max-height: 350px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  #main-content p {
+    text-align: left;
+  }
+  
+  main.bd-content #main-content img.align-center {
+    max-height: unset;
+  }
+
+  .bd-sidebar-primary{
+    display: block;
+  }
+
+  html[data-theme=light] {
+    --pst-color-secondary: #2563eb;
+    --pst-color-text-muted:#2563eb;
+    --pst-color-primary:#2563eb;
+  }
+
+  .navbar-nav li a{
+    font-size: 1.1rem;
+  }
+
+  /*定义整个滚动条高宽及背景：高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+    width:5px;
+    background-color:#F5F5F5;
+}
+/*定义滚动条轨道：内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    background-color:#F5F5F5;
+}
+/*定义滑块：内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    border-radius:5px;
+    background-color:#999;
+}

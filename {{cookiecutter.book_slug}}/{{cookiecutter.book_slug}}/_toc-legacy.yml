@@ -1,0 +1,9 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+- file: preface/index
+- file: preface/content
+  sections:
+    - file: chapter0/markdown
+    - file: chapter1/notebooks
+    - file: chapter2/markdown-notebooks
